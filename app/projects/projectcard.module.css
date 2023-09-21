@@ -1,0 +1,27 @@
+
+.card {
+  width: 20rem;
+  height: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2%;
+}
+
+.image {
+  border-radius: 1.5%;
+}
+
+.container {
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: .5rem;
+  padding: 10px;
+}
+
+.links {
+  display: flex;
+  width: 25%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
