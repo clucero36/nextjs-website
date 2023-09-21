@@ -16,14 +16,13 @@
   gap: 3rem;
 }
 
-.navborder {
-  background-color: tan;
-  margin: 8px 8px 0px 8px;
-}
-
 
 @media (max-width: 1250px) {
-  .navborder {
-    margin: 4px 4px 0px 4px;
+  .nav {
+    width: 90%;
+  }
+
+  .nav ul {
+    gap: 1.5rem;
   }
 }

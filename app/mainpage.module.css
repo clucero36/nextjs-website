@@ -8,9 +8,8 @@
   display: flex;
   width: 80%;
   height: 50vh;
-  margin: 0 auto;
+  margin: 2rem auto;
   align-items: center;
-
 
   background-image: url(../public/development-topdown.png);
   background-size: 95%;
@@ -25,14 +24,14 @@
 }
 
 .desc {
-  width: 53%;
+  width: 45%;
 }
 
 .footerNav {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  min-height: 20vh;
+  min-height: 17vh;
 }
 
 .footerNav ul {
@@ -44,17 +43,28 @@
 }
 
 @media (max-width: 1250px) {
-  .border {
-    margin: 0px 4px 0px 4px;
-  }
-
   .container {
-    width: 95%;
+    width: 90%;
   }
 
   .main {
-    width: 100%;
-    background-position-y: 10rem;
+    width: 95%;
+    background-position-y: 5rem;
+    background-position-x: 15rem;
+  }
+
+  .footerNav ul {
+    gap: 1.5rem;
+  }
+
+  .greeting {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .main {
     background-position-x: 10rem;
+    background-position-y: 5rem;
   }
 }

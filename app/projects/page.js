@@ -20,7 +20,7 @@ export default function Projects() {
   });
 
   return (
-    <div className="border">
+    <div>
       <div className='title' >
         Projects
       </div>
