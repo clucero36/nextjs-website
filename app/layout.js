@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
               />
             </Link>
             <ul>
-              <li className='shadow'><a href="https://docs.google.com/document/d/1vWjx9IO90qgjuR_js5wEngzkOkcMyzQfEJXhcT6pU8A/edit?usp=sharing" target="_blank">Resume</a></li>
+              <li className='shadow'><a href="Luis-Lucero-Full-stack-Developer-Resume.pdf" target="_blank">Resume</a></li>
               <li className='shadow'><Link href='/projects'>Projects</Link></li>
             </ul>
           </nav>
