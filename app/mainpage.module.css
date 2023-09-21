@@ -1,6 +1,6 @@
 .main {
   display: flex;
-  height: 40vh;
+  height: 25vh;
   align-items: center;
   margin: 0 auto;
 
@@ -24,7 +24,7 @@
 @media (max-width: 1250px) {
   
   .main {
-    width: 95%;
+    width: 98%;
     background-position-y: 5rem;
     background-position-x: 15rem;
   }

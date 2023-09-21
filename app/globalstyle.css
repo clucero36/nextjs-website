@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   max-width: 100vw;
-  height: calc(100vh - 20px);
+  min-height: calc(100vh - 20px);
   background-color: tan;
   border: 10px solid white;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
