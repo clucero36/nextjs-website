@@ -1,12 +1,13 @@
 
 .card {
   width: 20rem;
-  height: 22rem;
+  height: 20rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 2%;
   background-color:  #F7DCB4;
   color: #637764;
-  font-weight:bold;
+  font-weight: bold;
+  padding-bottom: 5px
 }
 
 .image {
