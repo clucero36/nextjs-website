@@ -1,7 +1,7 @@
+const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey(process.env.SEND_GRID_KEY);
 
 export async function POST(req, res) {
-  const sgMail = require('@sendgrid/mail');
-  sgMail.setApiKey(process.env.SEND_GRID_KEY);
 
   const body = await req.json();
 
