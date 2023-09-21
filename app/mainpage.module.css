@@ -1,15 +1,8 @@
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .main {
   display: flex;
-  width: 80%;
-  height: 50vh;
-  margin: 2rem auto;
+  height: 40vh;
   align-items: center;
+  margin: 0 auto;
 
   background-image: url(../public/development-topdown.png);
   background-size: 95%;
@@ -24,39 +17,18 @@
 }
 
 .desc {
+  color: #425042;
   width: 45%;
 }
 
-.footerNav {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  min-height: 17vh;
-}
-
-.footerNav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 3rem;
-}
-
 @media (max-width: 1250px) {
-  .container {
-    width: 90%;
-  }
-
+  
   .main {
     width: 95%;
     background-position-y: 5rem;
     background-position-x: 15rem;
   }
-
-  .footerNav ul {
-    gap: 1.5rem;
-  }
-
+  
   .greeting {
     width: 50%;
   }

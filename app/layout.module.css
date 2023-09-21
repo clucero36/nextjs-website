@@ -1,28 +1,42 @@
-.nav {
+
+.container {
+  min-height: calc(100vh - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav,
+.footerNav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
   margin: 0 auto;
   justify-content: space-between;
-  min-height: 15vh;
+  min-height: 13vh;
 }
 
-.nav ul {
+.nav ul,
+.footerNav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   gap: 3rem;
+  text-decoration: none;
 }
 
-
 @media (max-width: 1250px) {
-  .nav {
+  .nav,
+  .footerNav {
     width: 90%;
   }
 
-  .nav ul {
+  .nav ul,
+  .footerNav ul {
     gap: 1.5rem;
   }
 }

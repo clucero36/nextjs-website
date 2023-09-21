@@ -1,28 +1,36 @@
 .card {
   width: 20rem;
   height: 20rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 2%;
   background-color:  #F7DCB4;
   color: #637764;
-  font-weight: bold;
 }
 
 .image {
   border-radius: 1.5%;
 }
 
-.container {
-  height: calc(20rem - 210px);
+.descContainer {
+  height: calc(20rem - 230px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 5px;
+  padding: 10px;
+}
+
+.title {
+  font-size: larger;
+  font-weight: bolder;
 }
 
 .links {
   display: flex;
-  width: 25%;
+  width: 35%;
   margin: 0 auto;
   justify-content: space-between;
+}
+
+.link a {
+  text-decoration: underline;
 }

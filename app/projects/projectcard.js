@@ -15,8 +15,8 @@ export default function ProjectCard({name, description, src, link, git}) {
               height={200}
               alt='project image'
             />
-            <div className={styles.container}>
-              <div>{name}</div>
+            <div className={styles.descContainer}>
+              <div className={styles.title}>{name}</div>
               <div>{description}</div>
               <div style={{display: 'flex', justifyContent: 'space-around'}} >
                 <a href={link} target="_blank">Live</a>
@@ -32,12 +32,12 @@ export default function ProjectCard({name, description, src, link, git}) {
               height={200}
               alt='project image'
             />
-            <div className={styles.container}>
-              <div>{name}</div>
+            <div className={styles.descContainer}>
+              <div className={styles.title}>{name}</div>
               <div>{description}</div>
               <div className={styles.links}>
                 <a href={link} target="_blank">Live</a>
-                <a href={git} target="_blank">Git</a>
+                <a href={git} target="_blank">GitHub</a>
               </div>
             </div>
           </div>

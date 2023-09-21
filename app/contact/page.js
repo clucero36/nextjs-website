@@ -40,15 +40,15 @@ export default function Contact() {
     <>
       {
         submitted === true ? (
-          <div className='border'>
+          <div className={styles.main}>
             <div className='title' style={{paddingTop: '5rem'}}>
               Thanks for reaching out! I will get back to you asap.
             </div>
           </div>
         ) : (
-          <div className='border'>
+          <div className={styles.main}>
 
-            <div className='title' style={{paddingBottom: '5rem'}}>
+            <div className='title'>
               Send me an email! Lets get to work!
             </div>
 
