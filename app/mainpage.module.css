@@ -68,3 +68,9 @@
     background-position-y: 5rem;
   }
 }
+
+@media (max-width: 375px) {
+  .main {
+    background-position-x: 5rem;
+  }
+}
