@@ -13,14 +13,10 @@ export async function POST(req, res) {
     html: `<div>Email from: ${body.email}</div><div>Message: ${body.message}</div>`,
   }
 
-  sgMail
-  .send(msg)
-  .then(() => {
-    console.log('Email sent')
-  })
-  .catch((error) => {
-    console.error(error)
-  })
-
-  return new Response('OK');
+  try {
+    await sgMail.send(msg);
+    return new Response('OK');
+  } catch (error) {
+    return new Response({ error: 'Internal Server Error' }, { status: 500 })
+  }
 } 
