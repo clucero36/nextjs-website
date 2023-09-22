@@ -40,3 +40,9 @@
     gap: 1.5rem;
   }
 }
+
+@media (max-width: 475px) {
+  .container {
+    min-height: calc(100vh - 50px);
+  }
+}
