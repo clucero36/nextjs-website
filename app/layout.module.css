@@ -43,7 +43,7 @@
 
 @media (max-width: 375px) {
   .container {
-    min-height: 75vh;
+    min-height: 100svh;
     overflow-y: hidden;
   }
 }
