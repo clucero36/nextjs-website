@@ -1,4 +1,4 @@
-.container {
+.formContainer {
   width: 50%;
   margin: 0 auto;
   display: flex;
@@ -17,4 +17,10 @@
 .main {
   height: 50vh;
   margin: 5rem 0;
+}
+
+@media (max-width: 375px) {
+  .formContainer {
+    width: 80%;
+  }
 }

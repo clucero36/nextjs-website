@@ -1,11 +1,11 @@
 
 .container {
-  min-height: calc(100vh - 20px);
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  flex-direction: column;
   width: 80%;
   margin: 0 auto;
+  min-height: 100svh;
 }
 
 .nav,
@@ -16,7 +16,7 @@
   width: 80%;
   margin: 0 auto;
   justify-content: space-between;
-  min-height: 10vh;
+  min-height: 10svh;
 }
 
 .nav ul,
@@ -32,7 +32,7 @@
 @media (max-width: 1250px) {
   .nav,
   .footerNav {
-    width: 90%;
+    width: 95%;
   }
 
   .nav ul,
@@ -41,9 +41,9 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .container {
-    min-height: 100svh;
-    overflow-y: hidden;
+    width: 95%;
+
   }
 }

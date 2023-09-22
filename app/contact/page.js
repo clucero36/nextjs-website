@@ -52,7 +52,7 @@ export default function Contact() {
               Send me an email! Lets get to work!
             </div>
 
-            <form className={styles.container}>
+            <form className={styles.formContainer}>
               <div>
                 <label htmlFor='name'>Name: </label>
                 <input onChange={(e)=>{setName(e.target.value)}} type='text' name='name' id='name' required/>
