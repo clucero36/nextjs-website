@@ -41,8 +41,9 @@
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 375px) {
   .container {
-    min-height: calc(100vh - 50px);
+    min-height: 75vh;
+    overflow-y: hidden;
   }
 }
