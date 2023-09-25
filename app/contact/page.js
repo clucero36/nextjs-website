@@ -67,8 +67,13 @@ export default function Contact() {
                 <label htmlFor='message'>Message: </label>
                 <textarea onChange={(e)=>{setMessage(e.target.value)}} rows="5" id='message' required/>
               </div>
-                
-              <input onClick={(e) => handleSubmit(e)} type='submit' />
+              {
+                (name === '' || message === '' || email === '') ? (
+                  <></>
+                ) : (
+                  <input onClick={(e) => handleSubmit(e)} type='submit' />
+                )
+              }
             </form>
             
           </div>
