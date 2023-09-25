@@ -52,7 +52,7 @@ export default function Contact() {
               Send me an email! Lets get to work!
             </div>
 
-            <form className={styles.formContainer}>
+            <form className={styles.formContainer} onSubmit={(e) => handleSubmit(e)}>
               <div>
                 <label htmlFor='name'>Name: </label>
                 <input onChange={(e)=>{setName(e.target.value)}} type='text' name='name' id='name' required/>
@@ -71,11 +71,10 @@ export default function Contact() {
                 (name === '' || message === '' || email === '') ? (
                   <></>
                 ) : (
-                  <input onClick={(e) => handleSubmit(e)} type='submit' />
+                  <input type='submit'  />
                 )
               }
             </form>
-            
           </div>
         )
       }
