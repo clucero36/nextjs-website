@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
               <li className='shadow'><a href="http://github.com/clucero36" target='_blank'>GitHub</a></li>
               <li className='shadow'><a href="http://linkedin.com/in/luisclucero" target='_blank'>LinkedIn</a></li>
             </ul>
-            {/* <div className='shadow'><Link href='/contact'>Contact</Link></div> */}
+            <div className='shadow'><Link href='/contact'>Contact</Link></div>
           </footer>
 
         </div>

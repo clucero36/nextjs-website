@@ -12,9 +12,9 @@ export async function POST(req, res) {
     text: body.message,
     html: `<div>Email from: ${body.email}</div><div>Message: ${body.message}</div>`,
   }
-
+  console.log(msg);
   try {
-    await sgMail.send(msg);
+    await sgMail.send(msg)
     return new Response('OK');
   } catch (error) {
     return new Response({ error: 'Internal Server Error' }, { status: 500 })
