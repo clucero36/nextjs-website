@@ -19,8 +19,34 @@
   margin: 5rem 0;
 }
 
+.button {
+  cursor: pointer;
+  width: 25%;
+  margin: 0 auto;
+  height: 2rem;
+  border-radius: 4px;
+  border-color: tan;
+}
+
+#name,
+#email {
+  line-height: 1.25rem;
+}
+#message {
+  resize: vertical;
+  max-height: 350px;
+}
+
+
 @media (max-width: 375px) {
   .formContainer {
     width: 80%;
+  }
+}
+
+@media (min-width: 1245px) {
+  #name,
+  #email {
+    width: 50%;
   }
 }

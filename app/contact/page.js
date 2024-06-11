@@ -53,25 +53,25 @@ export default function Contact() {
             </div>
 
             <form className={styles.formContainer} onSubmit={(e) => handleSubmit(e)}>
-              <div>
+              <div className={styles.textarea}>
                 <label htmlFor='name'>Name: </label>
-                <input onChange={(e)=>{setName(e.target.value)}} type='text' name='name' id='name' required/>
+                <input onChange={(e)=>{setName(e.target.value)}} type='text' name='name' id={styles.name} required/>
               </div>
               
-              <div>
+              <div className={styles.textarea}>
                 <label htmlFor='email'>Email: </label>
-                <input onChange={(e)=>{setEmail(e.target.value)}} type='email' name='email' id='email' required />
+                <input onChange={(e)=>{setEmail(e.target.value)}} type='email' name='email' id={styles.email} required />
               </div>
               
               <div className={styles.textarea}>
                 <label htmlFor='message'>Message: </label>
-                <textarea onChange={(e)=>{setMessage(e.target.value)}} rows="5" id='message' required/>
+                <textarea onChange={(e)=>{setMessage(e.target.value)}} rows="5" id={styles.message} required/>
               </div>
               {
                 (name === '' || message === '' || email === '') ? (
                   <></>
                 ) : (
-                  <input type='submit'  />
+                  <input type='submit' className={styles.button} />
                 )
               }
             </form>
