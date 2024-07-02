@@ -14,11 +14,11 @@ const projects = [
     git: 'https://github.com/clucero36/spotify-clone.git',
   },
   {
-    name: 'Blogger Landing Page',
-    description: 'Business landing page. HTML, CSS, & JavsScript.',
-    src: '/bloggrNew.webp',
-    link: 'https://blogrbusiness.netlify.app/',
-    git: 'https://github.com/clucero36/Blogr.git',
+    name: 'Appointment Scheduler',
+    description: 'Salon Appointment Schedule App. Next.js, Square API, & Firebase',
+    src: '/appointments.webp',
+    link: 'https://appointments-black.vercel.app/',
+    git: 'https://github.com/clucero36/appointments',
   },
 ]
 
