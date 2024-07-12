@@ -18,7 +18,7 @@ export default function ProjectCard({name, description, src, link, git}) {
             <div className={styles.descContainer}>
               <div className={styles.title}>{name}</div>
               <div>{description}</div>
-              <div style={{display: 'flex', justifyContent: 'space-around'}} >
+              <div className={styles.link} >
                 <a href={link} target="_blank">Live</a>
               </div>
             </div>

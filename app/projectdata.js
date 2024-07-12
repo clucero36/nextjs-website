@@ -5,6 +5,7 @@ const projects = [
     description: 'E-Commerce website built with Shopify.',
     src: '/ayamaya-homepage.webp',
     link: 'https://ayamaya.com',
+    git: '#'
   },
   { 
     name: 'Spotify Clone',
