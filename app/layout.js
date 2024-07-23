@@ -1,6 +1,8 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import styles from './layout.module.css';
+import { Gi3dStairs } from "react-icons/gi";
+
+
 
 export const metadata = {
   title: 'llucero',
@@ -15,12 +17,7 @@ export default function RootLayout({ children }) {
 
           <nav className={styles.nav}>
             <Link href='/'>
-              <Image 
-                src='vercel.svg'
-                width={45}
-                height={45}
-                alt="Brand Image"
-              />
+              <Gi3dStairs style={{width: '1.5rem', height: '1.5rem'}}/>
             </Link>
             <ul>
               <li className='shadow'><a href="Luis Lucero Full-Stack Software Engineer Resume.pdf" target="_blank">Resume</a></li>
