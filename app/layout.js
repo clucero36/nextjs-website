@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
               <Gi3dStairs style={{width: '1.5rem', height: '1.5rem'}}/>
             </Link>
             <ul>
-              <li className='shadow'><a href="Luis Lucero Full-Stack Software Engineer Resume.pdf" target="_blank">Resume</a></li>
+              <li className='shadow'><a href="Luis Lucero Software Engineer Resume.pdf" target="_blank">Resume</a></li>
               <li className='shadow'><Link href='/projects'>Projects</Link></li>
               <div className='shadow'><Link href='/contact'>Contact</Link></div>
             </ul>
