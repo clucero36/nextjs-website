@@ -15,12 +15,10 @@ body {
   font-weight: bolder;
 }
 
-.shadow {
-  text-shadow: 1px 1px #637764;
-}
-
-.shadow a {
+a {
   text-decoration: none;
+  font-weight: 200;
+  font-size: large;
 }
 
 a:link,
@@ -29,5 +27,5 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #849e85;
 }
