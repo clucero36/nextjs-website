@@ -13,26 +13,26 @@
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  margin: 0 auto;
+  margin: 4rem auto 2rem;
   justify-content: space-between;
   min-height: 10svh;
 }
 
-.footerNav {
-  display: flex;
-  min-height: 20svh;
-  gap: 2rem;
-  margin: 0 auto;
-}
-
-.nav ul,
-.footerNav ul {
+.nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   gap: 3rem;
   text-decoration: none;
+}
+
+.footerNav {
+  display: flex;
+  min-height: 10svh;
+  gap: 2rem;
+  margin: 2rem auto 4rem auto;
+  align-items: center;
 }
 
 .button {
@@ -58,13 +58,20 @@
   }
 
   .nav ul,
-  .footerNav ul {
-    gap: 1.5rem;
+  .footerNav {
+    gap: 1rem;
+  }
+
+  .footerNav {
+    height: 10svh;
   }
 }
 
 @media (max-width: 400px) {
   .container {
     width: 95%;
+  }
+  .nav {
+    gap: .5rem;
   }
 }
