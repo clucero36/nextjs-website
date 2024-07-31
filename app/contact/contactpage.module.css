@@ -14,11 +14,6 @@
   flex-direction: column;
 }
 
-.main {
-  height: 50vh;
-  margin: 5rem 0;
-}
-
 .button {
   cursor: pointer;
   width: 25%;

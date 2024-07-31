@@ -13,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  margin: 4rem auto 2rem;
+  margin: 3rem auto 2rem;
   justify-content: space-between;
   min-height: 10svh;
 }
@@ -31,7 +31,7 @@
   display: flex;
   min-height: 10svh;
   gap: 2rem;
-  margin: 2rem auto 4rem auto;
+  margin: 2rem auto 3rem auto;
   align-items: center;
 }
 
