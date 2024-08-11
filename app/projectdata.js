@@ -18,7 +18,7 @@ const projects = [
     name: 'Appointment Scheduler',
     description: 'Salon Appointment Schedule App. Next.js, Square API, & Firebase.',
     src: '/appointments.webp',
-    link: 'https://appointments-black.vercel.app/',
+    link: 'https://appointments-app-router.vercel.app/',
     git: 'https://github.com/clucero36/appointments',
   },
 ]
