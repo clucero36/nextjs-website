@@ -1,12 +1,5 @@
 
 const projects = [
-  {
-    name: 'Ayamaya Outdoor',
-    description: 'E-Commerce website built with Shopify.',
-    src: '/ayamaya-homepage.webp',
-    link: 'https://ayamaya.com',
-    git: '#'
-  },
   { 
     name: 'Spotify Clone',
     description: 'Spotify Clone Web Application. React, Spotify OAuth 2.0, & Firebase.',
@@ -20,6 +13,20 @@ const projects = [
     src: '/appointments.webp',
     link: 'https://appointments-app-router.vercel.app/',
     git: 'https://github.com/clucero36/appointments',
+  },
+  {
+    name: 'Image Gallery',
+    description: 'Application Developed with Next.js & Pexel API',
+    src: '/Gallery.webp',
+    link: 'https://gallery-psi-sandy.vercel.app/',
+    git: 'https://github.com/clucero36/gallery'
+  },
+  {
+    name: 'Ayamaya Outdoor',
+    description: 'E-Commerce website built with Shopify.',
+    src: '/ayamaya-homepage.webp',
+    link: 'https://ayamaya.com',
+    git: '#'
   },
 ]
 

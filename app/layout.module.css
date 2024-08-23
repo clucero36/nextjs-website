@@ -3,19 +3,21 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
+  max-width: 1080px;
+  min-height: 97svh;
   margin: 0 auto;
-  min-height: 100svh;
+  padding: 10px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  margin: 3rem auto 2rem;
-  justify-content: space-between;
-  min-height: 10svh;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  height: 56px;
 }
 
 .nav ul {
@@ -29,9 +31,9 @@
 
 .footerNav {
   display: flex;
-  min-height: 10svh;
+  height: 56px;
   gap: 2rem;
-  margin: 2rem auto 3rem auto;
+  margin: 0 auto;
   align-items: center;
 }
 

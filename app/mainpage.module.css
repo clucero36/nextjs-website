@@ -2,7 +2,10 @@
   display: flex;
   min-height: 50vh;
   align-items: center;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 1080px;
+  justify-content: center;
+  padding: 10px;
 
   background-image: url(../public/development-topdown.webp);
   background-size: 100%;
@@ -18,7 +21,7 @@
 
 .desc {
   color: #425042;
-  width: 45%;
+  width: 35%;
 }
 
 @media (max-width: 1250px) {

@@ -21,7 +21,7 @@ export default function Projects() {
 
   return (
     <div>
-      <div className='title' >
+      <div className={style.title}>
         Projects
       </div>
       <div className={style.projects}>
