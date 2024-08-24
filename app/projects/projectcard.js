@@ -36,8 +36,8 @@ export default function ProjectCard({name, description, src, link, git}) {
               <div className={styles.title}>{name}</div>
               <div>{description}</div>
               <div className={styles.links}>
-                <a href={link} target="_blank">Live</a>
-                <a href={git} target="_blank">GitHub</a>
+                <a className={styles.link} href={link} target="_blank">Live</a>
+                <a className={styles.link} href={git} target="_blank">GitHub</a>
               </div>
             </div>
           </div>
