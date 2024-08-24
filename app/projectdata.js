@@ -22,6 +22,13 @@ const projects = [
     git: 'https://github.com/clucero36/gallery'
   },
   {
+    name: 'Jet Boat Classifieds',
+    description: 'E-commerce Web App. React.js, Firebase, & Stripe API',
+    src: '/jetboats.webp',
+    link: 'https://jetboats.netlify.app',
+    git: 'https://github.com/clucero36/jetboats'
+  },
+  {
     name: 'Ayamaya Outdoor',
     description: 'E-Commerce website built with Shopify.',
     src: '/ayamaya-homepage.webp',
