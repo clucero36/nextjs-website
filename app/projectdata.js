@@ -15,18 +15,18 @@ const projects = [
     git: 'https://github.com/clucero36/appointments',
   },
   {
+    name: 'Jet Boat Classifieds',
+    description: 'E-commerce Web App. Next.js, Firebase, Tailwind, & Stripe API',
+    src: '/jetboats.webp',
+    link: 'https://jetboats.vercel.app/',
+    git: 'https://github.com/clucero36/jetboats'
+  },
+  {
     name: 'Image Gallery',
     description: 'Application Developed with Next.js & Pexel API',
     src: '/Gallery.webp',
     link: 'https://gallery-psi-sandy.vercel.app/',
     git: 'https://github.com/clucero36/gallery'
-  },
-  {
-    name: 'Jet Boat Classifieds',
-    description: 'E-commerce Web App. React.js, Firebase, & Stripe API',
-    src: '/jetboats.webp',
-    link: 'https://jetboats.netlify.app',
-    git: 'https://github.com/clucero36/jetboats'
   },
   {
     name: 'Ayamaya Outdoor',
